@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 100;
+    background-color: transparent; /* Added background color */
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: skyblue;
+}
+
+.logo {
+    font-size: 35px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo:hover {
+    color: skyblue;
+    cursor: pointer;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menus li {
+    margin-left: 20px; /* Adjusted margin */
+}
+
+.navbar a.active {
+    font-weight: bold; /* Example style */
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.content {
+    background-color: #333; /* Added background color */
+    max-width: 600px;
+    padding: 20px; /* Added padding for better readability */
+}
+
+.content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: aquamarine;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+/* Add styles for the Hire Me button */
+#pic {
+    width: 500px;
+    height: 400px;
+    background: url("saura.jpg");
+    background-color: transparent;
+    border: none;
+    margin-left: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hire-btn {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 450px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover {
+    background-color: lightblue;
+}
